@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="synthApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Synth Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app/lib/angular.min.js"></script>
+    <script src="app/lib/angular-route.min.js"></script>
+    <script src="app/lib/angular-animate.min.js"></script>
+</head>
+<body>
+    <header ng-include="'partials/header.html'"></header>
+    <main ng-view></main>
+    <footer ng-include="'partials/footer.html'"></footer>
+<script src="app/main.js"></script>
+</body>
+</html>
