@@ -1,0 +1,16 @@
+{
+  "name": "synth-explorer-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://greggfine.github.io/synth-explorer",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
